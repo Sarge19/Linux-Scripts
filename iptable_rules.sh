@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "...Flushing Iptables rules"
-sudo iptables -F
+iptables -F
 echo ""
 
 echo "...allwoing via client net"
